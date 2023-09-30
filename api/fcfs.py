@@ -33,4 +33,3 @@ def scheduling(processes: List[Process]):
 
     print(f'Throughput: {len(processes) / time_stream}')
 
-# running_nonpreemptive(scheduling([Process("p1", 1, 3), Process("p2", 0, 4)]))
