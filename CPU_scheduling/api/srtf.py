@@ -2,8 +2,8 @@ from typing import List
 
 from prettytable import PrettyTable
 
-from api.process import Process, sort_arrival
-from ds.minHeapImpByArray import MinHeapTree
+from CPU_scheduling.api.process import Process, sort_arrival
+from CPU_scheduling.ds.minHeapImpByArray import MinHeapTree
 
 
 def scheduling(processes: List[Process]):
