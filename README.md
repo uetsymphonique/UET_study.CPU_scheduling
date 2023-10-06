@@ -6,5 +6,5 @@
 - Shortest Time Remaining First
 - First Come First Served
 - Round Robin
-### [Semaphore]()
+### [Semaphore]((https://github.com/uetsymphonique/UET_study.OperatingSystem_algorithms/tree/master/Semaphore)
 - Producer-Consumer Problem
