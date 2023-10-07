@@ -1,9 +1,10 @@
 from Semaphore.ProducerConsumer import producer_consumer
 from Semaphore.ReadersWriters import reader_writer
+from Semaphore.DiningPhilosophers import dining_philosophers
 
 
 def semaphore_examples():
-    choices = ['Producer-Consumer Problem', 'Readers-Writers Problem']
+    choices = ['Producer-Consumer Problem', 'Readers-Writers Problem', 'Dining-Philosophers Problem']
     for i, choice in enumerate(choices):
         print(f'[{i + 1}] {choice}')
     choice_index = -1
@@ -13,3 +14,5 @@ def semaphore_examples():
         producer_consumer()
     elif choice_index == 1:
         reader_writer()
+    elif choice_index == 2:
+        dining_philosophers()
