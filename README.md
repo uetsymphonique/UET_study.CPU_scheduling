@@ -8,3 +8,5 @@
 - Round Robin
 ### [Semaphore](https://github.com/uetsymphonique/UET_study.OperatingSystem_algorithms/tree/master/Semaphore)
 - Producer-Consumer Problem
+- Readers-Writers Problem
+- Dining-Philosophers Problem
