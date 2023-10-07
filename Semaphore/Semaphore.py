@@ -1,8 +1,9 @@
 from Semaphore.ProducerConsumer import producer_consumer
+from Semaphore.ReadersWriters import reader_writer
 
 
 def semaphore_examples():
-    choices = ['Producer-Consumer Problem']
+    choices = ['Producer-Consumer Problem', 'Readers-Writers Problem']
     for i, choice in enumerate(choices):
         print(f'[{i + 1}] {choice}')
     choice_index = -1
@@ -10,3 +11,5 @@ def semaphore_examples():
         choice_index = int(input('Enter your choice: ')) - 1
     if choice_index == 0:
         producer_consumer()
+    elif choice_index == 1:
+        reader_writer()
