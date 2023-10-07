@@ -17,9 +17,9 @@ def cpu_scheduling():
             b = int(input(f'[+] Process {i + 1}: burst time   '))
             processes.append(Process(f'P{i}', a, b))
     elif input_way_index == 2:
-        file_name = input('[+] Filename (input.txt): ')
+        file_name = input('[+] Filename (input_cpu_scheduling.txt): ')
         try:
-            with open(file_name or 'input.txt', mode='r') as f:
+            with open(file_name or 'input_cpu_scheduling.txt', mode='r') as f:
                 lines = f.readlines()
                 num_of_processes = int(lines[0])
                 for i in range(num_of_processes):

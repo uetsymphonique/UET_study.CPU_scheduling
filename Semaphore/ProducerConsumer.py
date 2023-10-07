@@ -89,3 +89,7 @@ def producer_consumer():
 
     producer.join()
     consumer.join()
+
+
+if __name__ == '__main__':
+    producer_consumer()
