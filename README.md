@@ -10,3 +10,6 @@
 - Producer-Consumer Problem
 - Readers-Writers Problem
 - Dining-Philosophers Problem
+### [Deadlock](https://github.com/uetsymphonique/UET_study.OperatingSystem_algorithms/tree/master/Deadlock)
+- Deadlock Avoidance
+- Deadlock Detection
