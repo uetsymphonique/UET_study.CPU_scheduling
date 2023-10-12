@@ -51,7 +51,7 @@ def deadlock_avoidance():
                     index = int(f.readline())
                     process_indexes.append(index)
                     requests.append(CustomList(map(int, f.readline().split())))
-    system = SystemInfo(number_of_processes, number_of_resource_types, available, claim, allocation)
+    system = SystemInfo(number_of_processes, number_of_resource_types, allocation, available, claim=claim)
     system.print_state()
     if c == 0:
         print(system.banker_algorithm())
@@ -60,5 +60,3 @@ def deadlock_avoidance():
             print(system.resources_request_algorithm(process_index, request))
 
 
-
-deadlock_avoidance()
